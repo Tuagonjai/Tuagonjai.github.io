@@ -1,5 +1,6 @@
 # Message authentication code (MAC)
-
+# นาย ศุภชัย แก้วละมุล 6530200509
+# นาย สิทธิเดช เลิศลัคนา 6530200533
 ## -CISSP Glossary
  -A small block of data that is generated using a secret key and then appended to the message,
   used to address integrity.
