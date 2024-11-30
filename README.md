@@ -1,4 +1,4 @@
 #Sitthidech
 - Sitthidech
   - Nate
-[ME](images/ชื่อภาพ.jpg)
+[ME](6530200533 (1).jpg)
