@@ -1,5 +1,5 @@
 #Sitthidech
 - Sitthidech
   - Nate
-![Me](6530200533 (1).jpg)
+![Me](images/6530200533 (1).jpg)
 
