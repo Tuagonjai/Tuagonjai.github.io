@@ -1,7 +1,7 @@
 # Message authentication code (MAC)
-- นายศุภชัย แก้วละมุล
+- นายศุภชัย แก้วละมุล[Em](https://Emkub.github.io/messagemac)
 - นายสิทธิเดช เลิศลัคนา
-  [Em](https://Emkub.github.io/messagemac)
+ 
 
 -CISSP Glossary
  - A small block of data that is generated using a secret key and then appended to the message, used to address integrity.
