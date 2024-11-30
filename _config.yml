@@ -1,7 +1,35 @@
-Theme:  {%- for script in config.extra_javascript %}
-    {%- if script.path %}  {# Detected MkDocs 1.5+ which has `script.path` and `script_tag` #}
-      {{ script | script_tag }}
-    {%- else %}  {# Fallback - examine the file name directly #}
-      <script src="{{ script | url }}"{% if script.endswith(".mjs") %} type="module"{% endif %}></script>
-    {%- endif %}
-  {%- endfor %}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* สีพื้นหลัง */
+  color: #333; /* สีข้อความ */
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #0056b3; /* สีสำหรับหัวข้อ */
+}
+
+code {
+  background-color: #eee; /* พื้นหลังของโค้ด */
+  color: #d63384; /* สีข้อความโค้ด */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #2d2d2d; /* พื้นหลังของ block code */
+  color: #f8f8f2; /* สีข้อความใน block code */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+a {
+  color: #007bff; /* สีลิงก์ */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
